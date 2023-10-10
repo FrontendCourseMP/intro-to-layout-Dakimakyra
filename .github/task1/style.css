@@ -1,35 +1,26 @@
 @font-face {
-    font-family: "NT Somic Bold";
+    font-family: "NT Somic";
     src: url("./Fonts/TTF/NTSomic-Bold.ttf") format("truetype");
     font-weight:bold;
     font-style: normal;
 }
 
 @font-face {
-  font-family: "NT Somic Regular";
+  font-family: "NT Somic";
   src: url("./Fonts/TTF/NTSomic-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-    font-family: "NT Somic Regular";
+    font-family: "NT Somic";
+    font-weight: normal;
 }
-.bold {
-    font-family: "NT Somic Bold";
-}
-.purpule {
+
+.WildberriesTag {
     color: darkorchid;
 }
-.blue {
+
+.OzonTag {
     color: blue;
-}
-.aqua {
-    color: aquamarine;
-}
-.aquamarker li::marker   {
-    color: aqua;
-}
-.backg {
-    background: linear-gradient(to right,  #11AE88, #2A84EE);
 }
