@@ -24,3 +24,18 @@ body {
 .OzonTag {
     color: blue;
 }
+.aqua {
+    color: aquamarine;
+}
+
+.aquamarker li::marker   {
+    color: aqua;
+}
+
+.backg {
+    background: linear-gradient(to right,  #11AE88, #2A84EE);
+    border-radius: 20px;
+    width: 782px;
+    height: 234px;
+    flex-shrink: 0;
+}
