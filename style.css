@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;   
+}
+
+@font-face {
+    font-family: "NT Somic";
+    src: url("./Fonts/TTF/NTSomic-Bold.ttf") format("truetype");
+    font-weight:bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "NT Somic";
+  src: url("./Fonts/TTF/NTSomic-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: "NT Somic";
+    font-weight: normal;
+}
+.header__btn-logout {
+    background-color: white;
+    border: none;
+}
+.header__btn-menu {
+    background-color: white;
+    border: none;
+}
+
+.WildberriesTag {
+    color: darkorchid;
+}
+
+.OzonTag {
+    color: blue;
+}
+.aqua {
+    color: aquamarine;
+}
+
+.aquamarker li::marker   {
+    color: aqua;
+}
+
+.anal-ad {
+    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
+    padding: 35px 20px 40px;
+    width: 320px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+
+.anal-form__input  {
+    width: 280px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 18px 20px; 
+}
+
+.anal-form__input ::-moz-placeholder {
+    color: #C3C3C3;
+}
+
+.anal-form__button {
+    width: 280px;
+    background:linear-gradient(to left, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
+    border-radius: 30px;
+    border: none;
+    padding:16px 0;
+    margin-top: 20px;
+    color: white;
+
+}
+ 
+.anal-ad__p {
+    color: white;
+    font-size: 16px;
+}
