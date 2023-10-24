@@ -44,19 +44,23 @@ body {
 }
 
 .anal-descr-text {
-    font-size: 27px;
+    font-size: 1.75rem;
     line-height: 115%;
     letter-spacing: 0.56px;
+    position: relative;
 }
 
 .anal-descr-text::after {
     content: url("./img/marketplaces-logos-m\ 1.png");
+    position: absolute;
+    top: 85%;
+    left: 81%;
 }
 
 .anal-descr-p {
     margin-top: 33px;
     color: #6C778E;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 125%;
     letter-spacing: 0.36px;
 }
@@ -78,10 +82,6 @@ body {
     color: #2A84EE;
 }
 
-.aquamarker li::marker {
-    color: aqua;
-}
-
 .anal-ad {
     background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
     padding: 35px 20px 40px;
@@ -92,7 +92,6 @@ body {
 
 .anal-form__p {
     color: white;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 125%;
@@ -124,7 +123,7 @@ body {
     width: 280px;
     background: linear-gradient(91deg, #2A84EE 5.69%, #11AE88 169.72%), #11AE88;
     box-shadow: 0px 0px 30px 0px #50ABDC;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 125%;
     letter-spacing: 0.36px;
     border-radius: 30px;
@@ -155,3 +154,96 @@ body {
     line-height: 125%;
     letter-spacing: 0.32px;
 }
+
+.psbls__title {
+    margin-top: 56px;
+    color: #212121;
+    font-size: 1.5rem;
+    line-height: 125%;
+    letter-spacing: 0.48px;
+}
+
+.psbls__list {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+.psbls__summary {
+    list-style: none;
+    position: relative;
+    padding: 17px 20px;
+    background: linear-gradient(0deg, #E8F2FC 0%, #E8F2FC 100%), linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2A84EE;
+    border-radius: 10px;
+
+}
+
+.psbls__detail[open] .psbls__summary {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.psbls__detail-box {
+    background-color: #F6FAFF;
+    padding: 27px 20px 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.psbls__summary::after {
+    content: url(./img/vector1.svg);
+    position: absolute;
+    left: 86%;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.psbls__detail[open] .psbls__summary::after {
+    content: url(./img/vector2.svg);
+}
+
+.psbls__summary-title {
+    color: #212121;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+    font-size: 1rem;
+}
+
+.psbls__summary-list {
+    list-style: disc;
+    list-style-position: inside;
+    color: #6C778E;
+    line-height: 115%;
+    letter-spacing: 0.32px;
+    margin-top: 26px;
+
+}
+
+.psbls__summary-item {
+    margin-bottom: 20px;
+}
+
+.psbls__img {
+    margin-top: 7px;
+}
+
+.psbls__summary-list li::marker {
+    color: #2EB897;
+}
+
+.psbls__detail-btn {
+    border-radius: 30px;
+    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #11AE88;
+    width: 280px;
+    padding: 14px 0;
+    color: #FFF;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
