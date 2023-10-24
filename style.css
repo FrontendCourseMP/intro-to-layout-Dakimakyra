@@ -71,11 +71,11 @@ body {
 }
 
 .aqua {
-    color: aquamarine;
+    color:#2EB897;
 }
 
 .blue {
-    color: blue;
+    color: #2A84EE;
 }
 
 .aquamarker li::marker {
@@ -133,4 +133,25 @@ body {
     margin-top: 20px;
     color: white;
 
+}
+.anal-info {
+    background: #E8F2FC;
+    width: 320px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 40px 20px;
+}
+.class1 {
+    color: #2A84EE;
+    font-size: 56px;
+    line-height: 125%;
+    letter-spacing: 1.12px;
+    font-weight: bold;
+    
+}
+.class2 {
+    color: #6C778E;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.32px;
 }
