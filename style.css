@@ -1,0 +1,249 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: "NT Somic";
+    src: url("./Fonts/TTF/NTSomic-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NT Somic";
+    src: url("./Fonts/TTF/NTSomic-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "NT Somic";
+    font-weight: normal;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.header__btn-logout {
+    background-color: white;
+    border: none;
+
+}
+
+.header__btn-menu {
+    background-color: white;
+    border: none;
+}
+
+.main-content {
+    padding: 25px 0;
+}
+
+.anal-descr-text {
+    font-size: 1.75rem;
+    line-height: 115%;
+    letter-spacing: 0.56px;
+    position: relative;
+}
+
+.anal-descr-text::after {
+    content: url("./img/marketplaces-logos-m\ 1.png");
+    position: absolute;
+    top: 85%;
+    left: 81%;
+}
+
+.anal-descr-p {
+    margin-top: 33px;
+    color: #6C778E;
+    font-size: 1.125rem;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+}
+
+
+.WildberriesTag {
+    color: darkorchid;
+}
+
+.OzonTag {
+    color: blue;
+}
+
+.aqua {
+    color:#2EB897;
+}
+
+.blue {
+    color: #2A84EE;
+}
+
+.anal-ad {
+    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
+    padding: 35px 20px 40px;
+    border-radius: 20px;
+    margin-top: 37px;
+    width: 320px;
+}
+
+.anal-form__p {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+}
+
+.anal-form__input {
+    width: 280px;
+    border-radius: 30px;
+    border: none;
+    padding: 18px 20px;
+    outline: none;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.32px; 
+
+}
+
+.anal-form__input::-webkit-input-placeholder {
+    color:  #C3C3C3;
+}
+
+.anal-form__input::-moz-placeholder {
+    color:  #C3C3C3;
+}
+
+.anal-form__button {
+    width: 280px;
+    background: linear-gradient(91deg, #2A84EE 5.69%, #11AE88 169.72%), #11AE88;
+    box-shadow: 0px 0px 30px 0px #50ABDC;
+    font-size: 1.125rem;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+    border-radius: 30px;
+    border: none;
+    padding: 16px 0;
+    margin-top: 20px;
+    color: white;
+
+}
+.anal-info {
+    background: #E8F2FC;
+    width: 320px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 40px 20px;
+}
+.class1 {
+    color: #2A84EE;
+    font-size: 56px;
+    line-height: 125%;
+    letter-spacing: 1.12px;
+    font-weight: bold;
+    
+}
+.class2 {
+    color: #6C778E;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+}
+
+.psbls__title {
+    margin-top: 56px;
+    color: #212121;
+    font-size: 1.5rem;
+    line-height: 125%;
+    letter-spacing: 0.48px;
+}
+
+.psbls__list {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+.psbls__summary {
+    list-style: none;
+    position: relative;
+    padding: 17px 20px;
+    background: linear-gradient(0deg, #E8F2FC 0%, #E8F2FC 100%), linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2A84EE;
+    border-radius: 10px;
+
+}
+
+.psbls__detail[open] .psbls__summary {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.psbls__detail-box {
+    background-color: #F6FAFF;
+    padding: 27px 20px 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.psbls__summary::after {
+    content: url(./img/vector1.svg);
+    position: absolute;
+    left: 86%;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.psbls__detail[open] .psbls__summary::after {
+    content: url(./img/vector2.svg);
+}
+
+.psbls__summary-title {
+    color: #212121;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+    font-size: 1rem;
+}
+
+.psbls__summary-list {
+    list-style: disc;
+    list-style-position: inside;
+    color: #6C778E;
+    line-height: 115%;
+    letter-spacing: 0.32px;
+    margin-top: 26px;
+
+}
+
+.psbls__summary-item {
+    margin-bottom: 20px;
+}
+
+.psbls__img {
+    margin-top: 7px;
+}
+
+.psbls__summary-list li::marker {
+    color: #2EB897;
+}
+
+.psbls__detail-btn {
+    border-radius: 30px;
+    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #11AE88;
+    width: 280px;
+    padding: 14px 0;
+    color: #FFF;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
