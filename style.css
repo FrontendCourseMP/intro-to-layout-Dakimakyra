@@ -218,15 +218,16 @@ body {
     line-height: 115%;
     letter-spacing: 0.32px;
     margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
 
 }
 
-.psbls__summary-item {
-    margin-bottom: 20px;
-}
+
 
 .psbls__img {
-    margin-top: 7px;
+    margin-top: 27px;
 }
 
 .psbls__summary-list li::marker {
