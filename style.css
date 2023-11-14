@@ -396,19 +396,24 @@ body {
 
 
 .choose-plan__button {
-    display: flex;
+    text-align: center;
     margin-top: 28px;
     border-radius: 30px;
     transition: .3;
     border: 1px solid #DBE1E9;
-    width: 132px;
-    height: 38px;
+    width: 147px;
     gap: 10px;
+    padding: 13px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 125%;
+    letter-spacing: 0.32px;
 
 }
 
 .choose-plan__button:hover {
     background:#11AE88;
+    color: #FFF;
 }
 
 .choose-plan__item {
