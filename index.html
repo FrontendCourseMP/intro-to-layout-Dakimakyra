@@ -11,14 +11,14 @@
 <body>
   <header class="header">
     <a href="#" class="header__logo logo">
-      <img src="./img/logotip.svg" alt="Логотип Mpassistant" class="logo__img">
+      <img src="./img/logo.svg" alt="Логотип Mpassistant" class="logo__img">
     </a>
     <div class="header__buttons">
       <button type="button" class="header__login">
-        <span class="visially-hidden">Войти</span>
+        <img src="./img/log_in.svg" alt="Войти/Выйти">
       </button>
       <button type="button" class="header__menu-button">
-        <span class="visially-hidden">Меню</span>
+        <img src="./img/menu.svg" alt="Меню">
       </button>
     </div>
   </header>
@@ -93,7 +93,7 @@
     </section>
     <section class="trial-period">
       <div class="trial-period__wrappper">
-<h2 class="visially-hidden">Начните экономить своё время</h2>
+        <h2 class="visially-hidden">Начните экономить своё время</h2>
         <form class="trial-period__form form">
           <p class="form__text">Начните свой 3-дневный пробный период с неограниченным доступом ко всем возможностям</p>
           <label class="form__label">
@@ -101,6 +101,10 @@
           </label>
           <button class="form__button" type="submit">Попробовать</button>
         </form>
+        <div class="trial-period__imgs">
+          <img class="trial-period-imgs__item" src="./img/woman1.png" alt="Женщина">
+          <img class="trial-period-imgs__item2" src="./img/clock.png" alt="Часы">
+        </div>
       </div>
     </section>
     <section class="report">
@@ -108,11 +112,11 @@
         <h2 class="report__title">Собираем единые отчёты по всем вашим магазинам</h2>
         <p class="report__text">C Mpassistant вы сможете:</p>
         <ul class="report__list">
-          <li class="report__item">Сможете видеть прибыль по всем магазинам и маркетплейсам в одном месте</li>
-          <li class="report__item">Не потратите время на сбор данных из нескольких кабинетов или маркетплейсов</li>
-          <li class="report__item">Добавите любое количество магазинов</li>
+          <li class="report__item"><img src="./img/checker.svg" alt="Галочка"><p class="report__item-p">Сможете видеть прибыль по всем магазинам и маркетплейсам в одном месте </p></li>
+          <li class="report__item"><img src="./img/checker.svg" alt="Галочка"><p class="report__item-p">Не потратите время на сбор данных из нескольких кабинетов или маркетплейсов </p></li>
+          <li class="report__item"><img src="./img/checker.svg" alt="Галочка"><p class="report__item-p">Добавите любое количество магазинов </p></li>
         </ul>
-        <img src="" alt="Филиалы макретплейсов" class="report__img">
+        <img src="./img/all-in.svg" alt="Филиалы макретплейсов" class="report__img">
       </div>
     </section>
     <section class="why-we">
@@ -120,26 +124,38 @@
         <h2 class="why-we__title">Почему выбирают Mpassistant</h2>
         <ul class="why-we__list">
           <li class="why-we__item">
-            <h3 class="why-we__subtitle">Точность данных</h3>
+            <div class="why-we__div">
+              <img src="./img/why-we-1.svg" alt="точность данных">
+              <h3 class="why-we__subtitle">Точность данных</h3>
+            </div>
             <p class="why-we__description">Данные в отчётах сервиса полностью совпадает с данными ваших магазинов
               на маркетплейсах.</p>
           </li>
           <li class="why-we__item">
-            <h3 class="why-we__subtitle">Большой функционал</h3>
+            <div class="why-we__div">
+              <img src="./img/why-we-2.svg" alt="Большой функционал">
+              <h3 class="why-we__subtitle">Большой функционал</h3>
+            </div>
             <p class="why-we__description">
               Полный набор инструментов для внутренней аналитики
               для Wildberries и Ozon. Более 10 полезных отчётов с удобными настраиваемыми фильтрами и параметрами.
             </p>
           </li>
           <li class="why-we__item">
-            <h3 class="why-we__subtitle">Лёгкость освоения</h3>
+            <div class="why-we__div">
+              <img src="./img/why-we-3.svg" alt="Лёгкость освоения">
+              <h3 class="why-we__subtitle">Лёгкость освоения</h3>
+            </div>
             <p class="why-we__description">
               Наши отчёты просты и удобны. Все отчёты имеют
               подробные инструкции и видео, помогающие легко читать их и использовать.
             </p>
           </li>
           <li class="why-we__item">
-            <h3 class="why-we__subtitle">Подходит всем</h3>
+            <div class="why-we__div">
+              <img src="./img/why-we-4.svg" alt="Подходит всем">
+              <h3 class="why-we__subtitle">Подходит всем</h3>   
+            </div>
             <p class="why-we__description">
               Mpassistant создан селлерами для селлеров.
               Наш опыт в товарном бизнесе и разработке IT систем позволил создать полезный
@@ -147,7 +163,10 @@
             </p>
           </li>
           <li class="why-we__item">
-            <h3 class="why-we__subtitle">Конфиденциальность</h3>
+            <div class="why-we__div">
+              <img src="./img/why-we-5.svg" alt="Конфиденциальность">
+              <h3 class="why-we__subtitle">Конфиденциальность</h3>
+            </div>
             <p class="why-we__description">
               Ваша конфиденциальность для нас самый главный приоритет. Все ваши
               данные надёжно сохранены, а информация об этом записана в договоре-оферте.
@@ -155,7 +174,10 @@
             </p>
           </li>
           <li class="why-we__item">
-            <h3 class="why-we__subtitle">Служба заботы</h3>
+            <div class="why-we__div">
+              <img src="./img/why-we-6.svg" alt="Служба заботы">
+              <h3 class="why-we__subtitle">Служба заботы</h3>
+            </div>
             <p class="why-we__description">Наша служба заботы готова решить практически любые вопросы и в режиме 24/7.
             </p>
           </li>
@@ -172,11 +194,14 @@
           </label>
           <button class="form__button" type="submit">Попробовать</button>
         </form>
+        <img src="./img/women-2.png" alt="Женщина">
+        <img src="./img/gift.png" alt="подарочек">
+        <img src="./img/blure-gift.png" alt="заблюренный подарок">
       </div>
     </section>
     <section class="choose-plan">
       <div class="choose-plan__wrapper">
-<h2 class="choose-plan__title">Выбери тариф</h2>
+        <h2 class="choose-plan__title">Выбери тариф</h2>
         <div class="choose-plan__tab">
           <button type="button" class="choose-plan__button">1 месяц</button>
           <button type="button" class="choose-plan__button">3 месяца</button>
@@ -260,7 +285,7 @@
       </div>
     </section>
   </main>
-<footer class="footer">
+  <footer class="footer">
     <div class="footer__wrapper">
       <a href="#" class="footer__logo logo">
         <img src="" alt="Логотип Mpassistant" class="logo__img">

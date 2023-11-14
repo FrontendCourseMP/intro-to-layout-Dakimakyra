@@ -28,13 +28,13 @@ body {
     padding-top: 20px;
 }
 
-.header__btn-logout {
+.header__login {
     background-color: white;
     border: none;
 
 }
 
-.header__btn-menu {
+.header__menu-button {
     background-color: white;
     border: none;
 }
@@ -43,21 +43,21 @@ body {
     padding: 25px 0;
 }
 
-.anal-descr-text {
+.banner__title {
     font-size: 1.75rem;
     line-height: 115%;
     letter-spacing: 0.56px;
     position: relative;
 }
 
-.anal-descr-text::after {
-    content: url("./img/marketplaces-logos-m\ 1.png");
+.banner__title::after {
+    content: url("./img/marketplaces-logos.svg");
     position: absolute;
     top: 85%;
     left: 81%;
 }
 
-.anal-descr-p {
+.banner__text {
     margin-top: 33px;
     color: #6C778E;
     font-size: 1.125rem;
@@ -82,7 +82,7 @@ body {
     color: #2A84EE;
 }
 
-.anal-ad {
+.banner__form {
     background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
     padding: 35px 20px 40px;
     border-radius: 20px;
@@ -90,7 +90,7 @@ body {
     width: 320px;
 }
 
-.anal-form__p {
+.form__text {
     color: white;
     font-style: normal;
     font-weight: 400;
@@ -98,7 +98,7 @@ body {
     letter-spacing: 0.32px;
 }
 
-.anal-form__input {
+.form__input {
     width: 280px;
     border-radius: 30px;
     border: none;
@@ -111,15 +111,15 @@ body {
 
 }
 
-.anal-form__input::-webkit-input-placeholder {
+.form__input::-webkit-input-placeholder {
     color:  #C3C3C3;
 }
 
-.anal-form__input::-moz-placeholder {
+.form__input::-moz-placeholder {
     color:  #C3C3C3;
 }
 
-.anal-form__button {
+.form__button {
     width: 280px;
     background: linear-gradient(91deg, #2A84EE 5.69%, #11AE88 169.72%), #11AE88;
     box-shadow: 0px 0px 30px 0px #50ABDC;
@@ -133,14 +133,14 @@ body {
     color: white;
 
 }
-.anal-info {
+.advantages__wrapper {
     background: #E8F2FC;
     width: 320px;
     border-radius: 10px;
     margin-top: 40px;
     padding: 40px 20px;
 }
-.class1 {
+.advantages__number {
     color: #2A84EE;
     font-size: 56px;
     line-height: 125%;
@@ -148,14 +148,14 @@ body {
     font-weight: bold;
     
 }
-.class2 {
+.advantages__text {
     color: #6C778E;
     font-size: 16px;
     line-height: 125%;
     letter-spacing: 0.32px;
 }
 
-.psbls__title {
+.features__title {
     margin-top: 56px;
     color: #212121;
     font-size: 1.5rem;
@@ -163,14 +163,14 @@ body {
     letter-spacing: 0.48px;
 }
 
-.psbls__list {
+.features__details {
     margin-top: 28px;
     display: flex;
     flex-direction: column;
     grid-gap: 10px;
 }
 
-.psbls__summary {
+.features__subtitle {
     list-style: none;
     position: relative;
     padding: 17px 20px;
@@ -179,20 +179,20 @@ body {
 
 }
 
-.psbls__detail[open] .psbls__summary {
+.features__details[open] .features__subtitle {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
 
-.psbls__detail-box {
+.features__content {
     background-color: #F6FAFF;
     padding: 27px 20px 40px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.psbls__summary::after {
-    content: url(./img/vector1.svg);
+.features__subtitle::after {
+    content: url(./img/button-arrow.svg);
     position: absolute;
     left: 86%;
     width: 20px;
@@ -200,18 +200,18 @@ body {
     
 }
 
-.psbls__detail[open] .psbls__summary::after {
-    content: url(./img/vector2.svg);
+.features__details[open] .features__subtitle::after {
+    content: url(./img/button-arrow-down.svg);
 }
 
-.psbls__summary-title {
+.features__header {
     color: #212121;
     line-height: 125%;
     letter-spacing: 0.32px;
     font-size: 1rem;
 }
 
-.psbls__summary-list {
+.features__list {
     list-style: disc;
     list-style-position: inside;
     color: #6C778E;
@@ -226,15 +226,15 @@ body {
 
 
 
-.psbls__img {
+.features__img {
     margin-top: 27px;
 }
 
-.psbls__summary-list li::marker {
+.features__list li::marker {
     color: #2EB897;
 }
 
-.psbls__detail-btn {
+.features__button {
     border-radius: 30px;
     background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #11AE88;
     width: 280px;
@@ -248,3 +248,139 @@ body {
 
 }
 
+.trial-period__wrappper {
+    margin-top: 50px;
+    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2EB897;
+    border-radius: 10px;
+    padding:  35px 20px 0;
+}
+
+.visially-hidden {
+    color: #FFF;
+    font-size: 1.3125rem;
+    line-height: 115%;
+    letter-spacing: 0.42px;
+    font-style: normal;
+    max-width: 247px;
+}
+
+.form__text {
+    margin-top: 21px;
+    color: #E3F7FF;
+    font-style: normal;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+    font-size: 1rem;
+}
+
+.form__label {
+    margin-top: 30px;
+}
+
+.form__button {
+    margin-top: 21px;
+}
+
+.report__wrapper {
+    margin-top: 56px;
+}
+
+.report__title {
+    color: #212121;
+    font-style: normal;
+    line-height: 115%;
+    letter-spacing: 0.48px;
+    font-size: 1.5rem;
+}
+
+.report__text {
+    margin-top: 21px;
+    color: #707070;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+    font-size: 1.125rem;
+}
+
+.report__list {
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+
+    
+}
+
+.report__item {
+    display: flex;
+    align-items: flex-start;
+    background: #EAF3FD;
+    border-radius: 10px;
+    color: #212121;
+    font-style: normal;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+    font-size: 1rem;
+    padding: 25px 20px 28px;
+}
+
+.report__item-p {
+    width: 251px;
+    margin-left: 9px;
+}
+
+.report__img {
+    margin-top: 22px;
+    margin-left: 50px;
+    margin-left: 30px;
+}
+
+.why-we__wrapper {
+    margin-top: 74px;
+}
+
+.why-we__title {
+    color: #212121;
+    font-style: bold;
+    line-height: 115%;
+    letter-spacing: 0.48px;
+    font-size: 1.5rem;
+}
+
+.why-we__list {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+.why-we__item {
+    background: linear-gradient(0deg, #EAF3FD 0%, #EAF3FD 100%), #2A84EE;
+    border-radius: 10px;
+    padding: 32px 20px;
+}
+
+.why-we__div {
+    display: flex;
+    align-items: center;
+}
+
+.why-we__subtitle {
+    color: #212121;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+    margin-left: 11px;
+}
+
+.why-we__description {
+    color: #707070;
+    font-size: 0.9375rem;
+    line-height: 125%;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+}
+
+.trial-period__wrappper {
+    margin-top: 60px;
+}
