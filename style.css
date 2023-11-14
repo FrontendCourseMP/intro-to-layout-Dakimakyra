@@ -384,3 +384,135 @@ body {
 .trial-period__wrappper {
     margin-top: 60px;
 }
+
+.choose-plan__title {
+    margin-top: 56px;
+    color: #212121;
+    line-height: 115%;
+    letter-spacing: 0.48px;
+    font-size: 1.5rem;
+    
+}
+
+
+.choose-plan__button {
+    display: flex;
+    margin-top: 28px;
+    border-radius: 30px;
+    transition: .3;
+    border: 1px solid #DBE1E9;
+    width: 132px;
+    height: 38px;
+    gap: 10px;
+
+}
+
+.choose-plan__button:hover {
+    background:#11AE88;
+}
+
+.choose-plan__item {
+    margin-top: 30px;
+    background: #EAF3FD;
+    border-radius: 10px;
+    width: 320px;
+    flex-shrink: 0;
+    padding: 35px 20px 30px;
+}
+
+.choose-plan__subtitle {
+    color: #212121;
+    line-height: 125%;
+    letter-spacing: 0.4px;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+.choose-plan__instalment {
+    margin-top: 22px;
+    color: #6C778E;
+    line-height: 125%;
+    letter-spacing: 0.52px;
+    font-size: 1.125rem;
+}
+
+.choose-plan__price {
+    margin-top: 13px;
+    color: #2A84EE;
+    font-size: 1.625rem;
+    line-height: 125%;
+    letter-spacing: 0.52px;
+    font-weight: bold;
+}
+
+.choose-plan__button1 {
+    margin-top: 30px;
+    border-radius: 30px;
+    background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%), #11AE88;
+    height: 42px;
+    width: 280px;
+    align-self: stretch;
+    color: #FFF;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.choose-plan__link {
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #11AE88;
+    border-radius: 30px;
+    width: 280px;
+    height: 42px;
+    padding: 8px 82px;
+}
+
+.choose-plan__link-text{
+    position: relative;
+    color: #212121;
+    font-size: 1rem;
+    line-height: 125%;
+    letter-spacing: 0.32px;
+    font-weight: bold;
+}
+
+.choose-plan__link-text::after {
+    position: absolute;
+    content: url(./img/arrow_details.svg);
+    margin-left: 6px;
+    top: 3px;
+}
+
+.reviews__wrapper {
+    margin-top: 56px;
+    color: #212121;
+    font-size: 1.5rem;
+    line-height: 115%;
+    letter-spacing: 0.48px;
+}
+
+.reviews__card {
+    margin-top: 28px;
+    background: linear-gradient(0deg, #EAF3FD 0%, #EAF3FD 100%), #2A84EE;
+    border-radius: 10px;
+    width: 320px;
+    height: 424px;
+
+}
+
+.reviews__text {
+    color: #6C778E;
+    font-size: 0.9375rem;
+    line-height: 125%;
+    letter-spacing: 0.3px;
+}
+
+.reviews__read-all {
+    color: #2EB897;
+    font-size: 1.125rem;
+    line-height: 125%;
+    font-weight: bold;
+    letter-spacing: 0.36px;
+}
