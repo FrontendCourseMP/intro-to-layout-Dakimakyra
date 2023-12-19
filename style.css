@@ -883,7 +883,46 @@ body {
   border: none;
 }
 
-@media screen and (min-width: 800px) {
-  .header {
+@media screen and (min-width: 550px) {
+  .wrapper {
+    max-width: 545px;
+  }
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 65px;
+  }
+  .advantages__wrapper {
+    width: 100%;
+  }
+  .advantages__item {
+    width: 456px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .wrapper {
+    max-width: 715px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    max-width: 995px;
+  }
+}
+@media screen and (min-width: 1320px) {
+  .wrapper {
+    max-width: 1315px;
+  }
+}
+@media screen and (min-width: 1560px) {
+  .wrapper {
+    max-width: 1555px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .wrapper {
+    max-width: 1915px;
   }
 }
