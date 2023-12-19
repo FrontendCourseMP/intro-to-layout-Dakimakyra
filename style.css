@@ -57,7 +57,7 @@ body {
 }
 
 .banner__title::after {
-  content: url("./img/marketplaces-logos.svg");
+  content: url("./img/marketplaces-logos-m\ 1.png");
   position: absolute;
   top: 85%;
   left: 70%;
@@ -456,6 +456,10 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.choose-plan__tab::-webkit-scrollbar {
+  display: none;
+}
+
 .choose-plan__button {
   flex: none;
   scroll-snap-align: start;
@@ -584,7 +588,7 @@ body {
 
 .choose-plan__link-text::after {
   position: absolute;
-  content: url(./img/arrow_details.svg);
+  content: url(./img/arrow-right.svg);
   margin-left: 6px;
   top: 3px;
 }
@@ -774,7 +778,7 @@ body {
 
 .grid__graf {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-auto-rows: minmax(30px, auto);
   gap: 10px;
   padding: 25px 0;
@@ -791,32 +795,32 @@ body {
   padding: 5px;
 }
 .two2 {
-  grid-column: 2 / 5;
+  grid-column: 2 / 8;
   grid-row: 1;
   border: 1px solid blue;
 }
 .three3 {
-  grid-column: 2;
+  grid-column: 2 / 4;
   grid-row: 2;
   border: 1px solid blue;
 }
 .four4 {
-  grid-column: 3;
+  grid-column: 4 / 6;
   grid-row: 2;
   border: 1px solid blue;
 }
 .five5 {
-  grid-column: 4;
+  grid-column: 6 / 8;
   grid-row: 2;
   border: 1px solid blue;
 }
 .six6 {
-  grid-column: 2;
+  grid-column: 2 / 5;
   grid-row: 3;
   border: 1px solid blue;
 }
 .seven7 {
-  grid-column: 4;
+  grid-column: 5/ 8;
   grid-row: 3;
   border: 1px solid blue;
 }
@@ -862,4 +866,24 @@ body {
   grid-column: 1;
   grid-row: 1;
   width: 100%;
+}
+
+.link__grid {
+  font-size: 3rem;
+}
+
+.reviews__pagination {
+  display: flex;
+  gap: 6px;
+  margin-left: 119px;
+}
+
+.reviews__button {
+  background: none;
+  border: none;
+}
+
+@media screen and (min-width: 800px) {
+  .header {
+  }
 }
