@@ -17,6 +17,16 @@
             class="logo__img"
           />
         </a>
+        <p class="header__visualy-hidden">
+          Аналитика и оцифровка продаж
+          <span class="header__visualy-hiddenwb">Wildberries</span> и
+          <span class="header__visualy-hiddenozon">Ozon</span>
+        </p>
+        <div>
+          <button class="header-visualy-hidden__button">О нас</button>
+          <button class="header-visualy-hidden__button">Возможности</button>
+          <button class="header-visualy-hidden__button">Тарифы</button>
+        </div>
         <div class="header__buttons">
           <button type="button" class="header__login">
             <img src="./img/log_in.svg" alt="Войти/Выйти" />
@@ -29,15 +39,24 @@
       <main class="main-content">
         <section class="banner">
           <div class="banner__wrapper">
-            <h1 class="banner__title">
-              <span class="aqua">Внутренняя аналитика</span> и
-              <span class="blue">финансовый учёт</span> для бизнеса на
-              маркетплейсах
-            </h1>
-            <p class="banner__text">
-              Увеличивай прибыль, автоматизируй рутину и экономь время на сборе
-              и анализе отчётов
-            </p>
+            <div class="hidden__text">
+              <h1 class="banner__title">
+                <span class="aqua">Внутренняя аналитика</span> и
+                <span class="blue">финансовый учёт</span> для бизнеса на
+                маркетплейсах
+              </h1>
+              <p class="banner__text">
+                Увеличивай прибыль, автоматизируй рутину и экономь время на
+                сборе и анализе отчётов
+              </p>
+            </div>
+            <div class="hedden__imgdiv">
+              <img
+                class="hidden__img12"
+                src="./img/1111111111111111111.jpg"
+                alt=""
+              />
+            </div>
             <form class="banner__form form">
               <p class="form__text">
                 Начните свой 3-дневный пробный период с неограниченным доступом
@@ -51,7 +70,7 @@
                   placeholder="Введите ваш email"
                 />
               </label>
-              <button class="form__button" type="submit">Попробовать</button>
+              <button class="form__button1" type="submit">Попробовать</button>
             </form>
           </div>
         </section>
@@ -166,33 +185,35 @@
               Собираем единые отчёты по всем вашим магазинам
             </h2>
             <p class="report__text">C Mpassistant вы сможете:</p>
-            <ul class="report__list">
-              <li class="report__item">
-                <img src="./img/checker.svg" alt="Галочка" />
-                <p class="report__item-p">
-                  Сможете видеть прибыль по всем магазинам и маркетплейсам в
-                  одном месте
-                </p>
-              </li>
-              <li class="report__item">
-                <img src="./img/checker.svg" alt="Галочка" />
-                <p class="report__item-p">
-                  Не потратите время на сбор данных из нескольких кабинетов или
-                  маркетплейсов
-                </p>
-              </li>
-              <li class="report__item">
-                <img src="./img/checker.svg" alt="Галочка" />
-                <p class="report__item-p">
-                  Добавите любое количество магазинов
-                </p>
-              </li>
-            </ul>
-            <img
-              src="./img/all-in.svg"
-              alt="Филиалы макретплейсов"
-              class="report__img"
-            />
+            <div class="rwd__report">
+              <ul class="report__list">
+                <li class="report__item">
+                  <img src="./img/checker.svg" alt="Галочка" />
+                  <p class="report__item-p">
+                    Сможете видеть прибыль по всем магазинам и маркетплейсам в
+                    одном месте
+                  </p>
+                </li>
+                <li class="report__item">
+                  <img src="./img/checker.svg" alt="Галочка" />
+                  <p class="report__item-p">
+                    Не потратите время на сбор данных из нескольких кабинетов
+                    или маркетплейсов
+                  </p>
+                </li>
+                <li class="report__item">
+                  <img src="./img/checker.svg" alt="Галочка" />
+                  <p class="report__item-p">
+                    Добавите любое количество магазинов
+                  </p>
+                </li>
+              </ul>
+              <img
+                src="./img/all-in.svg"
+                alt="Филиалы макретплейсов"
+                class="report__img"
+              />
+            </div>
           </div>
         </section>
         <section class="why-we">
@@ -405,6 +426,14 @@
                 Читать полностью
               </button>
               <p class="reviews__author">— Алексей</p>
+            </div>
+            <div class="hedden__rewdiv">
+              <p class="hidden-reviews__text">
+                Функционал сервиса, тот что есть — полностью устраивает. Хочется
+                ещё автобиддер по ставкам в рекламных компаниях и цены
+                вам не будет!
+              </p>
+              <p class="hidden-reviews__author">— Владислав</p>
             </div>
             <ol class="reviews__pagination">
               <li class="reviews__pagination-item">
