@@ -531,6 +531,7 @@ body {
 
 .choose-plan__item:nth-child(4) {
   background: linear-gradient(87deg, #fff1d7 0%, #ffb57f 100%), #e7f7f3;
+  margin-bottom: 20px;
 }
 
 .choose-plan__subtitle {
@@ -643,6 +644,33 @@ body {
   width: 320px;
   height: 424px;
   font-size: 1.8rem;
+}
+
+.hedden__rewdiv {
+  margin-top: 28px;
+  background: linear-gradient(0deg, #eaf3fd 0%, #eaf3fd 100%), #2a84ee;
+  border-radius: 10px;
+  width: 320px;
+  height: 424px;
+  font-size: 1.8rem;
+}
+
+.hidden-reviews__text {
+  color: #6c778e;
+  font-size: 1.5rem;
+  line-height: 125%;
+  letter-spacing: 0.3px;
+  padding: 37px 20px 0 20px;
+}
+
+.hidden-reviews__author {
+  color: #212121;
+  font-style: normal;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 .reviews__text {
@@ -957,7 +985,7 @@ body {
 .reviews__pagination {
   display: flex;
   gap: 6px;
-  margin-left: 119px;
+  margin-left: 10px;
 }
 
 .reviews__button {
@@ -971,6 +999,37 @@ body {
 
 .hedden__rewdiv {
   display: none;
+}
+
+.header__loginrwd {
+  display: none;
+}
+.button-hidden_rwd {
+  display: none;
+}
+
+.reviews__cardrwd {
+  display: none;
+}
+
+.imghidrwd {
+  display: none;
+}
+
+.hidden-treal__img {
+  display: none;
+}
+
+.nonetrial__img {
+  display: none;
+}
+
+.choose-plan__hiddenimg {
+  display: none;
+}
+
+.choose-plan__tabcontent {
+  position: relative;
 }
 
 @media screen and (min-width: 550px) {
@@ -989,6 +1048,9 @@ body {
   .advantages__item {
     width: 456px;
   }
+  .header-visualy-hidden__button {
+    background: none;
+  }
   .banner__form form {
     display: flex;
     flex-wrap: wrap;
@@ -996,28 +1058,9 @@ body {
     width: 700px;
   }
   .banner__form {
-    display: inline-block;
-    width: 500px;
+    width: 540px;
   }
-  .form__input {
-    position: absolute;
-    width: 400px;
-  }
-  .form__button {
-    position: relative;
-    width: 150px;
-    top: 10px;
-    left: 49%;
-  }
-  .form__button1 {
-    position: relative;
-    width: 150px;
-    top: 9px;
-    left: 53%;
-  }
-  .rwd__report {
-    display: flex;
-  }
+
   .report__list {
     width: 100%;
   }
@@ -1032,9 +1075,6 @@ body {
     display: grid;
     grid-template-columns: 350px 350px;
     grid-template-rows: 160px 160px;
-  }
-  .header__visualy-hidden {
-    display: flex;
   }
   .header-visualy-hidden__button {
     display: inline-block;
@@ -1053,7 +1093,7 @@ body {
   .choose-plan__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 10px;
   }
   .choose-plan__item:nth-child(4) {
     justify-content: center;
@@ -1079,68 +1119,201 @@ body {
     width: 1604px;
   }
   .banner__form {
-    display: inline-block;
-    width: 780px;
-  }
-  .form__input {
-    position: absolute;
-    width: 600px;
-  }
-  .form__button {
-    position: relative;
-    width: 256px;
-    top: 9px;
-    left: 50%;
-  }
-  .form__button1 {
-    position: relative;
-    width: 250px;
-    top: 9px;
-    left: 46%;
-  }
-  .hidden__text {
-    width: 973px;
+    width: 710px;
   }
 
+  .reviews__pagination {
+    display: none;
+  }
+
+  .hid-flex__card {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hedden__rewdiv {
+    display: block;
+  }
+
+  .form__label {
+    display: block;
+    background-color: white;
+    border-radius: 30px;
+  }
+
+  .form__label1 {
+    display: block;
+    background-color: white;
+    border-radius: 30px;
+  }
+
+  .imghidrwd {
+    display: inline;
+    width: 48px;
+    height: 48px;
+    background: none;
+  }
+
+  .rwddiv {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__input {
+    margin-top: 0px;
+  }
+  .form__button1 {
+    margin-top: 0px;
+    margin-left: 90px;
+    padding: 10px 0;
+  }
+  .form__button {
+    margin-top: 0px;
+    margin-left: 90px;
+    padding: 10px 0;
+  }
+
+  .reviews__cardrwd {
+    display: flex;
+  }
+
+  .rwd__report {
+    display: flex;
+  }
   @media screen and (min-width: 1000px) {
     .wrapper {
       max-width: 995px;
     }
-    .form__input {
-      position: absolute;
-      width: 700px;
+    .header__visualy-hidden {
+      display: block;
+      width: 220px;
+      margin-right: 200px;
     }
-    .form__button1 {
-      position: relative;
-      width: 250px;
-      top: 9px;
-      left: 60%;
-    }
-    .form__button {
-      position: relative;
-      width: 256px;
-      top: 9px;
-      left: 46%;
-    }
-    .why-we__list {
-      display: grid;
-      grid-template-columns: 500px 500px 500px;
-      grid-template-rows: 200px 200px;
-    }
+
     .hidden__text {
       width: 973px;
+    }
+    .form__button {
+      margin-left: 300px;
+      padding: 10px 0;
+    }
+    .header__login {
+      display: none;
+    }
+
+    .choose-plan__img {
+      display: none;
+    }
+
+    .reviews__card {
+      width: 470px;
+      height: 350px;
+    }
+
+    .hedden__rewdiv {
+      width: 470px;
+      height: 350px;
+    }
+
+    .header__loginrwd {
+      display: inline-block;
+      background: none;
+      margin-bottom: 10px;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .trial-period__imgits {
+      left: 30%;
+    }
+
+    .trial-period__imgs {
+      left: 30%;
     }
   }
   @media screen and (min-width: 1320px) {
     .wrapper {
       max-width: 1315px;
     }
-    .form__button {
-      position: relative;
-      width: 256px;
-      top: 9px;
-      left: 34%;
+
+    .trial-period__imgits {
+      display: none;
     }
+
+    .trial-period__wrappper {
+      padding: 35px 20px 50px;
+    }
+
+    .form__label1 {
+      width: 70%;
+    }
+
+    .choose-plan__img {
+      display: none;
+    }
+    .hidden-treal__img {
+      display: flex;
+      position: absolute;
+      left: 75%;
+    }
+
+    .choose-plan__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .choose-plan__item:nth-child(1) {
+      width: 400px;
+    }
+
+    .choose-plan__item:nth-child(2) {
+      width: 400px;
+    }
+
+    .choose-plan__item:nth-child(3) {
+      width: 400px;
+    }
+
+    .choose-plan__hiddenimg {
+      display: flex;
+      position: absolute;
+      left: 45%;
+      top: 50%;
+      width: 500px;
+      height: 300px;
+    }
+
+    .nonetrial__img {
+      display: flex;
+      position: absolute;
+      left: 75%;
+      width: 227px;
+      height: 224px;
+    }
+
+    .trial-period__imgs {
+      display: none;
+    }
+    .header__menu-button {
+      display: none;
+    }
+
+    .button-hidden_rwd {
+      display: inline-block;
+      width: 200px;
+      background: linear-gradient(91deg, #11ae88 5.69%, #2a84ee 169.72%);
+      box-shadow: 0px 0px 30px 0px #50abdc;
+      font-size: 1.125rem;
+      line-height: 125%;
+      letter-spacing: 0.36px;
+      border-radius: 30px;
+      border: none;
+      padding: 5px 0;
+      margin-top: 20px;
+      color: white;
+    }
+
     .why-we__list {
       display: grid;
       grid-template-columns: 700px 700px;
@@ -1157,6 +1330,16 @@ body {
       width: 380px;
     }
 
+    .reviews__card {
+      width: 600px;
+      height: 350px;
+    }
+
+    .hedden__rewdiv {
+      width: 600px;
+      height: 350px;
+    }
+
     .banner {
       position: relative;
     }
@@ -1167,32 +1350,46 @@ body {
     .wrapper {
       max-width: 1555px;
     }
-    .form__button {
-      position: relative;
-      width: 256px;
-      top: 10px;
-      left: 29%;
-    }
     .why-we__list {
       display: grid;
       grid-template-columns: 600px 600px 600px;
       grid-template-rows: 200px 200px;
+    }
+    .form__label1 {
+      width: 70%;
     }
   }
   @media screen and (min-width: 1920px) {
     .wrapper {
       max-width: 1915px;
     }
-    .form__button {
-      position: relative;
-      width: 256px;
-      top: 10px;
-      left: 23%;
-    }
     .why-we__list {
       display: grid;
       grid-template-columns: 630px 630px 630px;
       grid-template-rows: 200px 200px;
+    }
+    .reviews__card {
+      width: 900px;
+      height: 350px;
+    }
+
+    .hedden__rewdiv {
+      width: 900px;
+      height: 350px;
+    }
+    .choose-plan__item:nth-child(1) {
+      width: 500px;
+    }
+
+    .choose-plan__item:nth-child(2) {
+      width: 500px;
+    }
+
+    .choose-plan__item:nth-child(3) {
+      width: 500px;
+    }
+    .form__label1 {
+      width: 70%;
     }
   }
 }

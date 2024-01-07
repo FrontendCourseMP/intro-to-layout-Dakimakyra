@@ -22,12 +22,17 @@
           <span class="header__visualy-hiddenwb">Wildberries</span> и
           <span class="header__visualy-hiddenozon">Ozon</span>
         </p>
-        <div>
+        <div class="header-visualy-hidden__btndiv">
           <button class="header-visualy-hidden__button">О нас</button>
           <button class="header-visualy-hidden__button">Возможности</button>
           <button class="header-visualy-hidden__button">Тарифы</button>
         </div>
         <div class="header__buttons">
+          <button type="button" class="header__loginrwd">
+            <img src="./img/log-in-rwd.svg" alt="Войти/Выйти" />
+            Вход
+          </button>
+          <button class="button-hidden_rwd">Зарегистрироваться</button>
           <button type="button" class="header__login">
             <img src="./img/log_in.svg" alt="Войти/Выйти" />
           </button>
@@ -69,8 +74,8 @@
                   name="email"
                   placeholder="Введите ваш email"
                 />
+                <button class="form__button1" type="submit">Попробовать</button>
               </label>
-              <button class="form__button1" type="submit">Попробовать</button>
             </form>
           </div>
         </section>
@@ -148,6 +153,9 @@
           </div>
         </section>
         <section class="trial-period">
+          <div>
+            <img class="hidden-treal__img" src="./img/bebebe.png" alt="" />
+          </div>
           <div class="trial-period__wrappper">
             <h2 class="visially-hidden">Начните экономить своё время</h2>
             <form class="trial-period__form form">
@@ -155,15 +163,15 @@
                 3-дневный пробный период с неограниченным доступом ко всем
                 возможностям
               </p>
-              <label class="form__label">
+              <label class="form__label1">
                 <input
                   type="email"
                   class="form__input"
                   name="email"
                   placeholder="Введите ваш email"
                 />
+                <button class="form__button" type="submit">Попробовать</button>
               </label>
-              <button class="form__button" type="submit">Попробовать</button>
             </form>
             <div class="trial-period__imgs">
               <img
@@ -289,6 +297,9 @@
           </div>
         </section>
         <section class="trial-period">
+          <div>
+            <img class="nonetrial__img" src="./img/women-2.png" alt="" />
+          </div>
           <div class="trial-period__wrappper">
             <h2 class="visially-hidden">Бесплатный пробный период</h2>
             <form class="trial-period__form form">
@@ -296,15 +307,15 @@
                 Начните свой 3-дневный пробный период с неограниченным доступом
                 ко всем возможностям
               </p>
-              <label class="form__label">
+              <label class="form__label1">
                 <input
                   type="email"
                   class="form__input"
                   name="email"
                   placeholder="Введите ваш email"
                 />
+                <button class="form__button" type="submit">Попробовать</button>
               </label>
-              <button class="form__button" type="submit">Попробовать</button>
             </form>
             <div class="trial-period__imgits">
               <img
@@ -341,6 +352,13 @@
               </button>
             </div>
             <div class="choose-plan__tabcontent">
+              <div>
+                <img
+                  class="choose-plan__hiddenimg"
+                  src="./img/women-3.png"
+                  alt=""
+                />
+              </div>
               <ul class="choose-plan__list">
                 <li class="choose-plan__item">
                   <h3 class="choose-plan__subtitle">Стартовый</h3>
@@ -410,30 +428,42 @@
         </section>
         <section class="reviews">
           <div class="reviews__wrapper">
-            <h2 class="reviews__title">Отзывы</h2>
-            <div class="reviews__card">
-              <p class="reviews__text">
-                Изначально нашёл сервис в поиске Яндекса, когда искал
-                калькулятор unit-экономики товара. Калькулятор полностью устроил
-                и решил пользоваться самим сайтом. К тому же это было для меня
-                бесплатно, так как проходил по условиям бесплатного доступа:
-                оборот до 200т.р в месяц. Этого не встретить на других сайтах,
-                это возможность развиваться на ранних этапах, без вложения
-                огромных сумм для доступа к подобным сайтам. Радует поддержка,
-                получал ответы на всевопросы, выслушивали
-              </p>
-              <button type="button" class="reviews__read-all">
-                Читать полностью
-              </button>
-              <p class="reviews__author">— Алексей</p>
+            <div class="rwddiv">
+              <h2 class="reviews__title">Отзывы</h2>
+              <div class="hidden-imghidrwd">
+                <button class="imghidrwd">
+                  <img src="./img/arrowleft.svg" alt="" />
+                </button>
+                <button class="imghidrwd">
+                  <img src="./img/Group 25.svg" alt="" />
+                </button>
+              </div>
             </div>
-            <div class="hedden__rewdiv">
-              <p class="hidden-reviews__text">
-                Функционал сервиса, тот что есть — полностью устраивает. Хочется
-                ещё автобиддер по ставкам в рекламных компаниях и цены
-                вам не будет!
-              </p>
-              <p class="hidden-reviews__author">— Владислав</p>
+            <div class="hid-flex__card">
+              <div class="reviews__card">
+                <p class="reviews__text">
+                  Изначально нашёл сервис в поиске Яндекса, когда искал
+                  калькулятор unit-экономики товара. Калькулятор полностью
+                  устроил и решил пользоваться самим сайтом. К тому же это было
+                  для меня бесплатно, так как проходил по условиям бесплатного
+                  доступа: оборот до 200т.р в месяц. Этого не встретить на
+                  других сайтах, это возможность развиваться на ранних этапах,
+                  без вложения огромных сумм для доступа к подобным сайтам.
+                  Радует поддержка, получал ответы на всевопросы, выслушивали
+                </p>
+                <button type="button" class="reviews__read-all">
+                  Читать полностью
+                </button>
+                <p class="reviews__author">— Алексей</p>
+              </div>
+              <div class="hedden__rewdiv">
+                <p class="hidden-reviews__text">
+                  Функционал сервиса, тот что есть — полностью устраивает.
+                  Хочется ещё автобиддер по ставкам в рекламных компаниях и цены
+                  вам не будет!
+                </p>
+                <p class="hidden-reviews__author">— Владислав</p>
+              </div>
             </div>
             <ol class="reviews__pagination">
               <li class="reviews__pagination-item">
