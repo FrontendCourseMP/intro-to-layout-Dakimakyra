@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo logo">
+        <img src="./img/logo.svg" alt="Логотип Mpassistant" class="logo__img" />
+      </a>
+      <p class="header__visualy-hidden">
+        Аналитика и оцифровка продаж
+        <span class="header__visualy-hiddenwb">Wildberries</span> и
+        <span class="header__visualy-hiddenozon">Ozon</span>
+      </p>
+      <div class="header-visualy-hidden__btndiv">
+        <button class="header-visualy-hidden__button">О нас</button>
+        <button class="header-visualy-hidden__button">Возможности</button>
+        <button class="header-visualy-hidden__button">Тарифы</button>
+      </div>
+      <div class="header__buttons">
+        <button type="button" class="header__loginrwd">
+          <img src="./img/log-in-rwd.svg" alt="Войти/Выйти" />
+          Вход
+        </button>
+        <button class="button-hidden_rwd">Зарегистрироваться</button>
+        <button type="button" class="header__login">
+          <img src="./img/log_in.svg" alt="Войти/Выйти" />
+        </button>
+        <button type="button" class="header__menu-button">
+          <img src="./img/menu.svg" alt="Меню" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="form">
+        <div class="form__wrapper">
+          <form action="//httpbin.org/post" class="form__top top" method="post">
+            <h2 class="top__title">Регистрация пользователя</h2>
+            <fieldset class="top__fieldset">
+              <label class="group__label">
+                <span class="group__span">Имя/Никнейм :</span>
+                <input
+                  type="text"
+                  class="group__input"
+                  name="name"
+                  placeholder="Введите ваше имя"
+                  required
+                />
+              </label>
+              <label class="group__label">
+                <span class="group__span">Дата рождения:</span>
+                <input type="date" class="group__input" name="date" required />
+              </label>
+              <label class="group__label">
+                <span class="group__span">Пол:</span>
+              </label>
+              <label class="group__label">
+                <input
+                  type="radio"
+                  class="group__input--radio"
+                  name="gender"
+                  required
+                />
+                <span class="group__span">Женский</span>
+              </label>
+              <label class="group__label">
+                <input
+                  type="radio"
+                  class="group__input--radio"
+                  name="gender"
+                  required
+                />
+                <span class="group__span">Мужской</span>
+              </label>
+              <label class="group__label">
+                <input
+                  type="radio"
+                  class="group__input--radio"
+                  name="gender"
+                  required
+                />
+                <span class="group__span">Другое</span>
+              </label>
+              <label class="group__label">
+                <input
+                  type="radio"
+                  class="group__input--radio"
+                  name="gender"
+                  required
+                />
+                <span class="group__span">Не указывать</span>
+              </label>
+            </fieldset>
+            <fieldset class="top__fieldset">
+              <label class="group__label">
+                <span class="group__span">Почта/Email:</span>
+                <input
+                  type="email"
+                  class="group__input"
+                  name="email"
+                  placeholder="Введите ваш email"
+                  required
+                />
+              </label>
+              <label class="group__label">
+                <span class="group__span">Пароль:</span>
+                <input
+                  type="password"
+                  class="group__input"
+                  name="password"
+                  placeholder="Введите ваш пароль"
+                  required
+                />
+              </label>
+              <label class="group__label">
+                <span class="group__span">Удобный интервал для связи:</span>
+                <select class="group__select" name="contact-time">
+                  <option value="morning">Утро (6:00-11:59)</option>
+                  <option value="day">День (12:00-17:59)</option>
+                  <option value="evening">Вечер (18:00-00:00)</option>
+                  <option value="night">Ночь (00:00-5:59)</option>
+                </select>
+              </label>
+            </fieldset>
+            <div class="top__group group">
+              <button class="glow-on-hover" type="submit">Отправить</button>
+              <button class="glow-on-hover" type="reset">Сбросить</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <a href="#" class="footer__logo logo">
+          <img
+            src="./img/logo.svg"
+            alt="Логотип Mpassistant"
+            class="logo__imgfooter"
+          />
+        </a>
+        <p class="footer__description">
+          Аналитика и оцифровка продаж
+          <span class="footer__wb">Wildberries</span> и
+          <span class="footer__ozon">Ozon</span>
+        </p>
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"
+              ><img src="./img/vk.svg" alt="ВК" />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="social-link" href="#"
+              ><img src="./img/telegram.svg" alt="Телеграмм" />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="social-link" href="#"
+              ><img src="./img/youtube.svg" alt="Ютуб" />
+            </a>
+          </li>
+        </ul>
+        <div class="footer__divul">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <p class="footer__subtitle">Сервис</p>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Для кого</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Возможности</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Тарифы</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <p class="footer__subtitle">Клиентам</p>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Вход</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Регистрация</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Восстановления пароля</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <p class="footer__subtitle">Документы</p>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Пользовательское соглашение</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Политика конфиденциальности</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Публичная оферта</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Использование cookie</a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">Техническая поддержка</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer__partners">
+          <li class="footer__partners-item">
+            <img
+              src="./img/modulbank 1.svg"
+              alt="МодульБанк"
+              class="footer__partners-img"
+            />
+          </li>
+          <li class="footer__partners-item">
+            <img
+              src="./img/visa 1.svg"
+              alt="Visa"
+              class="footer__partners-img"
+            />
+          </li>
+          <li class="footer__partners-item">
+            <img
+              src="./img/mastercard 1.svg"
+              alt="Mastercard"
+              class="footer__partners-img"
+            />
+          </li>
+          <li class="footer__partners-item">
+            <img
+              src="./img/maestro 1.svg"
+              alt="Maestro"
+              class="footer__partners-img"
+            />
+          </li>
+          <li class="footer__partners-item">
+            <img src="./img/mir 1.svg" alt="Мир" class="footer__partners-img" />
+          </li>
+        </ul>
+        <p class="footer__text">© 2022–2023 Mpassistant</p>
+        <p class="footer__text">
+          Информация, размещённая на сайте, не является публичной офертой
+        </p>
+        <a class="link__grid" href="grid.html">Grid</a>
+      </div>
+    </footer>
+  </body>
+</html>
