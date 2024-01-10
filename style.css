@@ -2054,7 +2054,7 @@ section {
       left: 75%;
       width: 227px;
       height: 224px;
-      top: 424.5%;
+      top: 466.9%;
     }
 
     .trial-period__imgs {
@@ -2112,7 +2112,7 @@ section {
     .vishidtreal__item2 {
       display: flex;
       position: absolute;
-      top: 435%;
+      top: 477.5%;
       left: 70%;
     }
 
@@ -2132,7 +2132,7 @@ section {
       grid-template-rows: 200px 200px;
     }
     .form__label1 {
-      width: 70%;
+      width: 60%;
     }
 
     .nonetrial__img {
@@ -2142,13 +2142,13 @@ section {
       left: 75%;
       width: 227px;
       height: 224px;
-      top: 389.1%;
+      top: 431.4%;
     }
 
     .vishidtreal__item2 {
       display: flex;
       position: absolute;
-      top: 399.7%;
+      top: 441.9%;
       left: 70%;
     }
 
@@ -2212,13 +2212,17 @@ section {
       left: 75%;
       width: 227px;
       height: 224px;
-      top: 355.3%;
+      top: 394.3%;
+    }
+
+    .form__label1 {
+      width: 57%;
     }
 
     .vishidtreal__item2 {
       display: flex;
       position: absolute;
-      top: 364.9%;
+      top: 403.8%;
       left: 70%;
     }
 
