@@ -1552,10 +1552,6 @@ body {
   color: var(--fifth-color);
 }
 
-section {
-  margin: 100px 0 100px;
-}
-
 .MPASSISTANT__container {
   position: relative;
   display: flex;
