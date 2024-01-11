@@ -2201,6 +2201,14 @@ body {
       width: 500px;
     }
 
+    .footer-text__div {
+      margin-top: -80px;
+    }
+
+    .footer__partners {
+      margin-left: 570px;
+    }
+
     .choose-plan__item:nth-child(2) {
       width: 500px;
     }
