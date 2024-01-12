@@ -975,7 +975,7 @@ body {
 }
 
 .bigger-size__h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   background-color: rgb(52, 161, 235);
 }
 
@@ -1543,15 +1543,11 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  overflow: hidden;
-  border: 1px solid var(--border-black);
-  border-radius: 10px;
-  background-color: var(--bg-black-element);
   width: 100%;
   height: 100px;
 }
 .MPASSISTANT__container img {
-  transform: scale(1.5);
+  transform: scale(2.2);
 }
 .MPASSISTANT__container li {
   position: absolute;
@@ -1586,9 +1582,6 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 75px;
-  border: 1px solid var(--border-black);
-  border-radius: 10px;
-  background-color: var(--bg-black-element);
 }
 .flipping-card__container li {
   position: relative;
@@ -1602,7 +1595,7 @@ body {
 .profile,
 .backside {
   position: absolute;
-  transition: 1s;
+  transition: 1.5s;
   backface-visibility: hidden;
 }
 .backside {
