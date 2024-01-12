@@ -1576,20 +1576,20 @@ body {
   }
 }
 
-.flipping-card__container {
+.flippii__container {
   padding: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 75px;
 }
-.flipping-card__container li {
+.flippii__container li {
   position: relative;
   width: 500px;
   height: 500px;
   perspective: 1500px;
 }
-.flipping-card__container li img {
+.flippii__container li img {
   width: 100%;
 }
 .profile,
@@ -1601,10 +1601,10 @@ body {
 .backside {
   transform: rotateY(180deg);
 }
-.flipping-card__container li:hover .profile {
+.flippii__container li:hover .profile {
   transform: rotateY(180deg);
 }
-.flipping-card__container li:hover .backside {
+.flippii__container li:hover .backside {
   transform: rotateY(360deg);
 }
 
