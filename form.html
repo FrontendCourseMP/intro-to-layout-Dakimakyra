@@ -56,6 +56,15 @@
                 <input type="date" class="group__input" name="date" required />
               </label>
               <label class="group__label">
+                <span class="group__span">Пароль:</span>
+                <input
+                  type="password"
+                  class="group__input"
+                  name="password"
+                  placeholder="Введите ваш пароль"
+                  required
+                />
+              <label class="group__label">
                 <span class="group__span">Пол:</span>
               </label>
               <label class="group__label">
@@ -65,6 +74,7 @@
                   name="gender"
                   required
                 />
+                
                 <span class="group__span">Женский</span>
               </label>
               <label class="group__label">
@@ -94,6 +104,7 @@
                 />
                 <span class="group__span">Не указывать</span>
               </label>
+                <h2 class="top__title">Контактные данные</h2>
             </fieldset>
             <fieldset class="top__fieldset">
               <label class="group__label">
@@ -106,15 +117,16 @@
                   required
                 />
               </label>
-              <label class="group__label">
-                <span class="group__span">Пароль:</span>
-                <input
-                  type="password"
-                  class="group__input"
-                  name="password"
-                  placeholder="Введите ваш пароль"
-                  required
-                />
+                <label class="group__label">
+                  <span class="group__span">Номер телефона:</span>
+                  <input
+                    type="tel"
+                    class="group__input"
+                    name="tel"
+                    placeholder="8(000)000-00-00"
+                    required
+                  />
+                </label>
               </label>
               <label class="group__label">
                 <span class="group__span">Удобный интервал для связи:</span>
@@ -136,50 +148,54 @@
     </main>
     <footer class="footer">
       <div class="footer__wrapper">
-        <a href="#" class="footer__logo logo">
-          <img
-            src="./img/logo.svg"
-            alt="Логотип Mpassistant"
-            class="logo__imgfooter"
-          />
-        </a>
-        <p class="footer__description">
-          Аналитика и оцифровка продаж
-          <span class="footer__wb">Wildberries</span> и
-          <span class="footer__ozon">Ozon</span>
-        </p>
-        <ul class="footer__social-list">
-          <li class="footer__social-item">
-            <a class="footer__social-link" href="#"
-              ><img src="./img/vk.svg" alt="ВК" />
+        <div class="div-flex__footer">
+          <div>
+            <a href="#" class="footer__logo logo">
+              <img
+                src="./img/logo.svg"
+                alt="Логотип Mpassistant"
+                class="logo__imgfooter"
+              />
             </a>
-          </li>
-          <li class="footer__social-item">
-            <a class="social-link" href="#"
-              ><img src="./img/telegram.svg" alt="Телеграмм" />
-            </a>
-          </li>
-          <li class="footer__social-item">
-            <a class="social-link" href="#"
-              ><img src="./img/youtube.svg" alt="Ютуб" />
-            </a>
-          </li>
-        </ul>
-        <div class="footer__divul">
-          <ul class="footer__list">
-            <li class="footer__item">
-              <p class="footer__subtitle">Сервис</p>
-            </li>
-            <li class="footer__item">
-              <a href="" class="footer__link">Для кого</a>
-            </li>
-            <li class="footer__item">
-              <a href="" class="footer__link">Возможности</a>
-            </li>
-            <li class="footer__item">
-              <a href="" class="footer__link">Тарифы</a>
-            </li>
+            <p class="footer__description">
+              Аналитика и оцифровка продаж
+              <span class="footer__wb">Wildberries</span> и
+              <span class="footer__ozon">Ozon</span>
+            </p>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#"
+                  ><img src="./img/vk.svg" alt="ВК" />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="social-link" href="#"
+                  ><img src="./img/telegram.svg" alt="Телеграмм" />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="social-link" href="#"
+                  ><img src="./img/youtube.svg" alt="Ютуб" />
+                </a>
+              </li>
+          </div>
           </ul>
+          <div class="footer__divul">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <p class="footer__subtitle">Сервис</p>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Для кого</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Возможности</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Тарифы</a>
+              </li>
+            </ul>
+          </div>
           <ul class="footer__list">
             <li class="footer__item">
               <p class="footer__subtitle">Клиентам</p>
@@ -215,45 +231,50 @@
             </li>
           </ul>
         </div>
-        <ul class="footer__partners">
-          <li class="footer__partners-item">
-            <img
-              src="./img/modulbank 1.svg"
-              alt="МодульБанк"
-              class="footer__partners-img"
-            />
-          </li>
-          <li class="footer__partners-item">
-            <img
-              src="./img/visa 1.svg"
-              alt="Visa"
-              class="footer__partners-img"
-            />
-          </li>
-          <li class="footer__partners-item">
-            <img
-              src="./img/mastercard 1.svg"
-              alt="Mastercard"
-              class="footer__partners-img"
-            />
-          </li>
-          <li class="footer__partners-item">
-            <img
-              src="./img/maestro 1.svg"
-              alt="Maestro"
-              class="footer__partners-img"
-            />
-          </li>
-          <li class="footer__partners-item">
-            <img src="./img/mir 1.svg" alt="Мир" class="footer__partners-img" />
-          </li>
-        </ul>
-        <p class="footer__text">© 2022–2023 Mpassistant</p>
-        <p class="footer__text">
-          Информация, размещённая на сайте, не является публичной офертой
-        </p>
+        <div class="footer-partners__div">
+          <ul class="footer__partners">
+            <li class="footer__partners-item">
+              <img
+                src="./img/modulbank 1.svg"
+                alt="МодульБанк"
+                class="footer__partners-img"
+              />
+            </li>
+            <li class="footer__partners-item">
+              <img
+                src="./img/visa 1.svg"
+                alt="Visa"
+                class="footer__partners-img"
+              />
+            </li>
+            <li class="footer__partners-item">
+              <img
+                src="./img/mastercard 1.svg"
+                alt="Mastercard"
+                class="footer__partners-img"
+              />
+            </li>
+            <li class="footer__partners-item">
+              <img
+                src="./img/maestro 1.svg"
+                alt="Maestro"
+                class="footer__partners-img"
+              />
+            </li>
+            <li class="footer__partners-item">
+              <img src="./img/mir 1.svg" alt="Мир" class="footer__partners-img" />
+            </li>
+          </ul>
+          <div class="footer-text__div">
+            <p class="footer__text">© 2022–2023 Mpassistant</p>
+            <p class="footer__text">
+              Информация, размещённая на сайте, не является публичной офертой
+            </p>
+          </div>
+        </div>
         <a class="link__grid" href="grid.html">Grid</a>
         <a class="link__grid" href="form.html">Form</a>
+        <a class="link__grid" href="demo.html">Animation</a>
       </div>
     </footer>
   </body>
