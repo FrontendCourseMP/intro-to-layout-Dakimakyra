@@ -1195,10 +1195,6 @@ body {
   overflow: hidden;
 }
 
-.form {
-  background: #313636;
-}
-
 .form__wrapper {
   width: 100%;
   max-width: 300px;
